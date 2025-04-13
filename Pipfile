@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "*"
+isort = "*"
+langchain-aws = "*"
+python-dotenv = "*"
+langchain = "*"
+langgraph = "*"
+grandalf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
